@@ -7,9 +7,9 @@ import java.util.regex.Pattern
 
 
 var textToSpeech: TextToSpeech? = null
-//git remote add origin git@github.com-personal:hardikm9850/Arey-Payment-aya-kya-.git
+
 /**
- * retrieves digit from the
+ * retrieves digit from the received message
  */
 fun String.getAmountFromText(): String {
     val text = this.replace("₹","Rupees ")
